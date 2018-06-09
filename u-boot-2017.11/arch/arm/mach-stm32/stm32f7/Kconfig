@@ -1,8 +1,8 @@
 if STM32F7
 
-config TARGET_STM32F746_DISCO
-	bool "STM32F746 Discovery board"
+config TARGET_STM32F767_APOLLO
+	bool "STM32F767 Apollo board"
 
-source "board/st/stm32f746-disco/Kconfig"
+source "board/st/stm32f767-apollo/Kconfig"
 
 endif

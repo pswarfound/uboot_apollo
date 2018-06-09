@@ -45,8 +45,8 @@
 #include <dt-bindings/memory/stm32-sdram.h>
 
 / {
-	model = "STMicroelectronics STM32F769-DISCO board";
-	compatible = "st,stm32f769-disco", "st,stm32f7";
+	model = "STMicroelectronics STM32F767-APOLLO board";
+	compatible = "st,stm32f767-apollo", "st,stm32f7";
 
 	chosen {
 		bootargs = "root=/dev/ram rdinit=/linuxrc";
