@@ -1,0 +1,19 @@
+if TARGET_STM32F767_APOLLO
+
+config SYS_BOARD
+	string
+	default "stm32f767-apollo"
+
+config SYS_VENDOR
+	string
+	default "st"
+
+config SYS_SOC
+	string
+	default "stm32f7"
+
+config SYS_CONFIG_NAME
+	string
+	default "stm32f767-apollo"
+
+endif

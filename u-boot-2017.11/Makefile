@@ -763,9 +763,9 @@ DO_STATIC_RELA =
 endif
 
 # Always append ALL so that arch config.mk's can add custom ones
-ALL-y += u-boot.srec u-boot.bin u-boot.sym System.map binary_size_check
+#ALL-y += u-boot.srec u-boot.bin u-boot.sym System.map binary_size_check
 
-ALL-$(CONFIG_ONENAND_U_BOOT) += u-boot-onenand.bin
+#ALL-$(CONFIG_ONENAND_U_BOOT) += u-boot-onenand.bin
 ifeq ($(CONFIG_SPL_FSL_PBL),y)
 ALL-$(CONFIG_RAMBOOT_PBL) += u-boot-with-spl-pbl.bin
 else

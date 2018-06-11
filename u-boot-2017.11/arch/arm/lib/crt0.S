@@ -87,7 +87,6 @@ ENTRY(_main)
 	bl	board_init_f
 
 #if ! defined(CONFIG_SPL_BUILD)
-
 /*
  * Set up intermediate environment (new sp and gd) and call
  * relocate_code(addr_moni). Trick here is that we'll return

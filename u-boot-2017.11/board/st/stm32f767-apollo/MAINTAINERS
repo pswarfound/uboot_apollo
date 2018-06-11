@@ -1,0 +1,6 @@
+STM32F767 APOLLO BOARD
+M:	Vikas Manocha <vikas.manocha@st.com>
+S:	Maintained
+F:	board/st/stm32f767-apollo
+F:	include/configs/stm32f767-apollo.h
+F:	configs/stm32f767-apollo_defconfig
